@@ -1,0 +1,17 @@
+
+E
+java:S3740P"/Provide the parametrized type for this generic.(•¦¦
+B
+java:S1197",Move the array designators [][] to the type.(óÔ±
+E
+java:S1197O"*Move the array designators [] to the type.(®áäüÿÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÁÔ¬µ
+8
+java:S1643Œ"Use a StringBuilder instead.(­åæşÿÿÿÿ
+3
+java:S1643"Use a StringBuilder instead.(èŸ¨Á
+8
+java:S1643"Use a StringBuilder instead.(¥ÍÍ›ùÿÿÿÿ
+)
+java:S1700"Rename field "data"(óÔ±

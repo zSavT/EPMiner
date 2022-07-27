@@ -1,0 +1,24 @@
+
+E
+java:S3740#"/Provide the parametrized type for this generic.(ğ„¹æ
+J
+java:S3740$"/Provide the parametrized type for this generic.(ÑÚ°øúÿÿÿÿ
+E
+java:S3740Y"/Provide the parametrized type for this generic.(–ÕÜ›
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+“
+java:S1130h"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(ïÇèôüÿÿÿÿ
+
+java:S1130x"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(”˜µã
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(å…òêûÿÿÿÿ
+7
+java:S1643["Use a StringBuilder instead.(üùŞ´úÿÿÿÿ
+i
+java:S2095i"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(›Ğñòùÿÿÿÿ
+k
+java:S2095j"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(êŠóÌøÿÿÿÿ
+e
+java:S2095z"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(ÁÜ­
+h
+java:S2095y"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(óå¼€ÿÿÿÿÿ

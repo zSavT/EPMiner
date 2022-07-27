@@ -1,0 +1,10 @@
+
+Q
+java:S1854"6Remove this useless assignment to local variable "ms".(ÂìäÑûÿÿÿÿ
+B
+java:S1481"'Remove this unused "ms" local variable.(ÂìäÑûÿÿÿÿ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(«­˜¬
+S
+java:S1128"1Remove this unused import 'java.net.InetAddress'.(ë³ƒÒÿÿÿÿÿ8µÃ¹Šê/
+=
+java:S2189/""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ

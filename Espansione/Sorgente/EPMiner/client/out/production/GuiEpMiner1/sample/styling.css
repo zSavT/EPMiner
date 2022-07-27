@@ -1,0 +1,80 @@
+.root{
+	-fx-background-color: #4483AA;
+}
+
+.button{
+	-fx-background-color: white;
+	-fx-background-radius: 1px 1px 1px 1px;
+	-fx-fill-color: black;
+	-fx-border-width: 2px;
+	-fx-border-color: #777777;
+	-fx-text-fill:black;
+	-fx-background-insets: 0,1,2;
+}
+
+.button:hover{
+	-fx-background-color: #68D9FF;
+	-fx-border-color: #CDD1D6;
+	-fx-border-width: 1px; 
+}
+
+.button:pressed{
+	-fx-background-color: #0086ED;
+	-fx-fill-color: #FFFFFF;
+}
+#close{
+    -fx-background-color: #4483AA;
+    -fx-background-radius: 0px 0px 0px 0px;
+    -fx-fill-color: #4483AA;
+    -fx-border-width: 0px;
+    -fx-border-color: #4483AA;
+    -fx-background-insets: 0,0,0;;
+}
+#close:pressed{
+    -fx-border-width: 1px;
+    -fx-border-color: #777777;
+    -fx-background-color: #2D5771;
+}
+
+#pane{
+    -fx-background-color: #67C5FF ;
+}
+
+.tab-pane{
+	-fx-tab-min-width:90px;
+	-fx-tab-min-height:30px;
+}
+
+.tab{
+	-fx-background-insets: 0 0 0 0,0,0;
+}
+
+.tab-pane .tab{
+	-fx-background-color: #99D8FF;
+	-fx-text-fill: black;
+}
+
+.tab-pane .tab:selected{
+	-fx-background-color: #67C5FF;
+	-fx-text-fill: black;
+	-fx-border-color: #67C5FF;
+	-fx-border-width: 0px 0px 3px 0px; 
+}
+
+.tab .tab-label{
+	-fx-alignment: center;
+	-fx-text-fill: black;
+}
+
+.tab:selected .tab-label{
+	-fx-alignment: center;
+	-fx-text-fill: black;
+}
+
+.tab-header-background {
+	-fx-background-color: #4483AA;
+}
+ .tab-pane:focused{
+	 -fx-focus-color: #67C5FF;
+	 -fx-faint-focus-color: #67C5FF;
+ }

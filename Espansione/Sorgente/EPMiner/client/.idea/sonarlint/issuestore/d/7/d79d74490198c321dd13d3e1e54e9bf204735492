@@ -1,0 +1,33 @@
+
+q	java:S116"\Rename this field "DRIVER_CLASS_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â°Øí
+c	java:S116"ORename this field "DBMS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï‡îW
+f	java:S116"QRename this field "SERVER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í‰¦¸
+d	java:S116"ORename this field "PORT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ†ãµ
+h	java:S116"SRename this field "DATABASE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚¦æÏ
+l	java:S116"RRename this field "USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ôë²Øùÿÿÿÿ
+h	java:S116"SRename this field "PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÝíÂ
+7
+java:S1170"!Make this final field static too.(Â°Øí
+6
+java:S1170"!Make this final field static too.(ï‡îW
+7
+java:S1170"!Make this final field static too.(í‰¦¸
+7
+java:S1170"!Make this final field static too.(Ñ†ãµ
+7
+java:S1170"!Make this final field static too.(‚¦æÏ
+<
+java:S1170"!Make this final field static too.(Ôë²Øùÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(µÝíÂ
+_
+java:S2147)"DCombine this catch with the one at line 36, which has the same body.(ÌæÄýÿÿÿÿ
+I
+java:S1874""3Remove this use of "newInstance"; it is deprecated.(¯Ÿ·
+M
+java:S1135%"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+M
+java:S1135*"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(é££«ÿÿÿÿÿ
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(ß¾Â
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(“ò¿²üÿÿÿÿ

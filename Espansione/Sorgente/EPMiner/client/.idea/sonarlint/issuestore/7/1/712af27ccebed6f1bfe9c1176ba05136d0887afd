@@ -1,0 +1,55 @@
+
+J
+java:S3740""/Provide the parametrized type for this generic.(¤¦üŞúÿÿÿÿ
+E
+java:S3740V"/Provide the parametrized type for this generic.(Å”ö¹
+E
+java:S3740o"/Provide the parametrized type for this generic.(ŞøÜ—
+E
+java:S3740o"/Provide the parametrized type for this generic.(ŞøÜ—
+K
+java:S3740­"/Provide the parametrized type for this generic.(¦¸‹öşÿÿÿÿ
+h
+java:S3776!"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(¤¥İö
+r
+java:S6201&"\Replace this instanceof check and cast with 'instanceof DiscreteAttribute discreteattribute'(şì¼£
+r
+java:S6201&"\Replace this instanceof check and cast with 'instanceof DiscreteAttribute discreteattribute'(şì¼£
+r
+java:S6201&"\Replace this instanceof check and cast with 'instanceof DiscreteAttribute discreteattribute'(şì¼£
+V	java:S1250"<This block of commented-out lines of code should be removed.(¯öî¡ùÿÿÿÿ
+v
+java:S62015"`Replace this instanceof check and cast with 'instanceof ContinuousAttribute continuousAttribute'(¹üšì
+V	java:S125A"<This block of commented-out lines of code should be removed.(¯öî¡ùÿÿÿÿ
+N	java:S106M"9Replace this use of System.out or System.err by a logger.(ÉÑé’
+h
+java:S3776o"RRefactor this method to reduce its Cognitive Complexity from 52 to the 15 allowed.(ŞøÜ—
+M
+java:S1905t"2Remove this unnecessary cast to "FrequentPattern".(¥›²ÿÿÿÿÿ
+x
+java:S6201€"\Replace this instanceof check and cast with 'instanceof DiscreteAttribute discreteattribute'(ŞÕşÄıÿÿÿÿ
+x
+java:S6201€"\Replace this instanceof check and cast with 'instanceof DiscreteAttribute discreteattribute'(ŞÕşÄıÿÿÿÿ
+R	java:S125‡"<This block of commented-out lines of code should be removed.(õ¬•å
+w
+java:S6201"`Replace this instanceof check and cast with 'instanceof ContinuousAttribute continuousAttribute'(ÂÍ™‡
+R	java:S125™"<This block of commented-out lines of code should be removed.(õ¬•å
+”
+java:S1130¼"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(ïÇèôüÿÿÿÿ
+
+java:S1130Ì"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(¡Í§ÿ
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8ÄÅ¹Šê/
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ˜‡Ìûÿÿÿÿ
+f	java:S117_"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ÉÖ
+8
+java:S1643¯"Use a StringBuilder instead.(óì¯Şÿÿÿÿÿ
+i
+java:S2095Í"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ı†©üıÿÿÿÿ
+f
+java:S2095Î"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(ÁÜ­
+g
+java:S2095¾"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(ñòµÂ
+e
+java:S2095½"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ßºŸ±

@@ -1,0 +1,29 @@
+
+V
+java:S1854l";Remove this useless assignment to local variable "tSchema".(èœòÍûÿÿÿÿ
+G
+java:S1481l",Remove this unused "tSchema" local variable.(èœòÍûÿÿÿÿ
+W
+java:S1854•";Remove this useless assignment to local variable "tSchema".(èœòÍûÿÿÿÿ
+H
+java:S1481•",Remove this unused "tSchema" local variable.(èœòÍûÿÿÿÿ
+o
+java:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(²‹¨©
+t
+java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(Šç‹®ıÿÿÿÿ
+o
+java:S2293j"YReplace the type specification in this constructor call with the diamond operator ("<>").(µ±§¶
+7
+java:S1643,"Use a StringBuilder instead.(Åñéúÿÿÿÿ
+2
+java:S1643E"Use a StringBuilder instead.(‹€œ’
+2
+java:S1643F"Use a StringBuilder instead.(‹Ú÷Ï
+g
+java:S1104""QMake tuple a static final constant or non-public and provide accessors if needed.(²‹¨©
+c
+java:S2095¡"GUse try-with-resources or close this "Statement" in a "finally" clause.(‡²€·ıÿÿÿÿ
+b
+java:S2095y"GUse try-with-resources or close this "Statement" in a "finally" clause.(‡²€·ıÿÿÿÿ
+b
+java:S2095L"GUse try-with-resources or close this "Statement" in a "finally" clause.(‡²€·ıÿÿÿÿ

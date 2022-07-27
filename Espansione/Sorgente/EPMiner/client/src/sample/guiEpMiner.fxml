@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <center>
+      <TabPane fx:id="tabPane" prefHeight="387.0" prefWidth="592.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+         <tabs>
+            <Tab fx:id="tabHome" text="Home">
+               <content>
+                  <GridPane id="sfondo">
+                     <columnConstraints>
+                        <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="9000000.0" minWidth="60.0" prefWidth="60.0" />
+                        <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="230.0" minWidth="230.0" prefWidth="230.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="210.0" minWidth="210.0" prefWidth="210.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="80.0" minWidth="80.0" prefWidth="80.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="9000000.0" minWidth="0.0" prefWidth="0.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints maxHeight="9000000.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="84.0" minHeight="84.0" prefHeight="84.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="85.0" minHeight="85.0" prefHeight="85.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="9000000.0" minHeight="0.0" prefHeight="66.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <Label fx:id="lableScelta" text="Scegli una opzione:" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.rowSpan="2147483647" GridPane.valignment="TOP">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets top="20.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <Button fx:id="buttonNuovaScoperta" mnemonicParsing="false" onAction="#NuovaScoperta" prefHeight="36.0" prefWidth="183.0" text="Nuova Scoperta" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                           <GridPane.margin>
+                              <Insets right="15.0" />
+                           </GridPane.margin>
+                        </Button>
+                        <Button fx:id="buttonRisultatiArchivio" mnemonicParsing="false" onAction="#RisultatiInArchivio" prefHeight="36.0" prefWidth="183.0" text="Risultati in Archivio" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                           <GridPane.margin>
+                              <Insets left="15.0" />
+                           </GridPane.margin>
+                        </Button>
+                        <TextField fx:id="textFieldMinSupp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="183.0" promptText="minsup&gt;0 e minsup&lt;=1" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets left="15.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="textFieldMinGr" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="183.0" promptText="MnGr =&gt; 1" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets left="15.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="textFieldTabTarget" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="183.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets left="15.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="textFieldTabBackground" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="183.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                           <GridPane.margin>
+                              <Insets left="15.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <Label id="labelT1" fx:id="lableTabTarget" styleClass="labelT1" text="Tabella target:" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                           <font>
+                              <Font name="Palatino Linotype" size="14.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets right="15.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <Label id="labelT1" fx:id="lableTabBackground" styleClass="labelT1" text="Tabella background:" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                           <font>
+                              <Font name="Palatino Linotype" size="14.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets right="15.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <Label id="labelT1" fx:id="lableMinSupp" styleClass="labelT1" text="Inserire valore minimo supporto:" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <font>
+                              <Font name="Palatino Linotype" size="14.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets right="15.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <Label id="labelT1" fx:id="labelMinGr" styleClass="labelT1" text="Inserire valore minimo grow rate:" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                           <font>
+                              <Font name="Palatino Linotype" size="14.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets right="15.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <Label fx:id="labelStatusMinSupp" text="Valore errato!" visible="false" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin></Label>
+                        <Label fx:id="labelStatusMinGr" minHeight="-Infinity" minWidth="-Infinity" text="Valore errato!" visible="false" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                        <Label fx:id="labelStatusTabTarget" minHeight="-Infinity" minWidth="-Infinity" text="Valore errato!" visible="false" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                        <Label fx:id="labelStatusTabBackground" minHeight="-Infinity" minWidth="-Infinity" text="Valore errato!" visible="false" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                     </children>
+                  </GridPane>
+               </content>
+            </Tab>
+            <Tab fx:id="tabRisultati" text="Risultati">
+               <content>
+                  <VBox id="sfondo" prefHeight="656.0" prefWidth="600.0">
+                     <children>
+                        <Label id="labelT1" alignment="TOP_CENTER" prefHeight="17.0" prefWidth="9000000.0" text="Frequent Pattern">
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="10.0" right="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <TextArea fx:id="textAreaFP" editable="false" prefHeight="9000000.0" prefWidth="9000000.0">
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="8.0" right="8.0" top="5.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </padding>
+                        </TextArea>
+                        <Label id="labelT1" alignment="TOP_CENTER" prefHeight="17.0" prefWidth="9000000.0" text="Emerging Pattern">
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="10.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <TextArea fx:id="textAreaEP" editable="false" prefHeight="9000000.0" prefWidth="9000000.0">
+                           <VBox.margin>
+                              <Insets bottom="8.0" left="8.0" right="8.0" top="5.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </padding>
+                        </TextArea>
+                     </children>
+                  </VBox>
+               </content>
+            </Tab>
+            <Tab fx:id="tabModificaServer" text="Modifica Server">
+               <content>
+                  <GridPane id="sfondo" prefHeight="361.0" prefWidth="595.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="900000.0" minWidth="0.0" prefWidth="0.0" />
+                        <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="274.0" minWidth="274.0" prefWidth="274.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+                        <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="157.0" minWidth="157.0" prefWidth="157.0" />
+                        <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="157.0" minWidth="157.0" prefWidth="157.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="9000000.0" minWidth="0.0" prefWidth="0.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints maxHeight="900000.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="60.0" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="40.0" minHeight="40.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="80.0" minHeight="80.0" prefHeight="80.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="55.0" minHeight="55.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="900000.0" minHeight="0.0" prefHeight="45.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <TextField fx:id="textFieldIndirizzoIp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="100.0" promptText="127.0.0.1" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets left="15.0" />
+                           </GridPane.margin></TextField>
+                        <TextField fx:id="textFieldPorta" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="100.0" promptText="8080" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets left="15.0" />
+                           </GridPane.margin></TextField>
+                        <Label id="labelT1" text="indirizzo ip:" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                           <GridPane.margin>
+                              <Insets right="15.0" />
+                           </GridPane.margin></Label>
+                        <Label id="labelT1" text="porta:" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets right="15.0" />
+                           </GridPane.margin></Label>
+                        <Label text="Informazioni del server" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.rowSpan="2147483647" GridPane.valignment="TOP">
+                           <font>
+                              <Font size="29.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets top="20.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <Label fx:id="labelErrorConn" prefHeight="30.0" prefWidth="538.0" text="Tentativo di connessione con il server fallito, riprovare o cambiare indirizzo ip e/o porta" textFill="RED" visible="false" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.rowSpan="2147483647" GridPane.valignment="TOP">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </Label>
+                        <Label fx:id="labelIP" text="ip errato" visible="false" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </Label>
+                        <Button fx:id="buttonServerStart" mnemonicParsing="false" onAction="#StartServer" prefHeight="29.0" prefWidth="100.0" text="Connetti" textFill="WHITE" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.rowSpan="2147483647" GridPane.valignment="TOP">
+                           <GridPane.margin>
+                              <Insets top="40.0" />
+                           </GridPane.margin>
+                        </Button>
+                        <Label fx:id="connInCorso" text="L'operazione potrebbe richiedere tempo" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.rowSpan="2147483647" GridPane.valignment="TOP">
+                           <GridPane.margin>
+                              <Insets top="60.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <Label fx:id="labelPorta" text="porta errata" visible="false" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </Label>
+                     </children>
+                  </GridPane>
+               </content>
+            </Tab>
+         </tabs>
+      </TabPane>
+   </center>
+   <top>
+      <AnchorPane prefHeight="5.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+      <AnchorPane prefHeight="373.0" prefWidth="5.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <AnchorPane prefHeight="373.0" prefWidth="5.0" BorderPane.alignment="CENTER" />
+   </right>
+   <bottom>
+      <AnchorPane prefHeight="5.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
